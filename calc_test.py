@@ -13,7 +13,7 @@ class TestCalcModule(unittest.TestCase):
     def test_sub(self):
         a = 3
         b = 10
-        expected = -7
+        expected = -6
 
         self.assertEqual(calc.sub(a,b), expected)
 
